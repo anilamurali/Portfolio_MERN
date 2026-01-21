@@ -1,0 +1,52 @@
+:root{
+    --dark_color:#101734;
+    --light_color:#5c5e68;
+    --txt-color:#ee4604;
+    --dark_text:#c5bde1;
+}
+
+.home_container{
+    margin: 130px 0 200px 0;
+    padding-right: 10px;
+}
+p{
+
+    /* margin-right:800px ; */
+   
+    font-family: IBM Plex Sans ,sans-serif;
+}
+
+.social i{
+ margin-right: 10px;
+ font-size: 30px;
+ padding: 5px;
+ border-radius: 10px;
+ 
+
+}
+.social i:hover{
+    color: var(--txt-color);
+}
+button{
+    border: 2px solid var(--txt-color)  ;
+    font-family: IBM Plex Sans ,sans-serif;
+    background: transparent;
+    color: var(--dark_text);
+    font-size: 15px;
+    width: 170px;
+    height: 40px;
+}
+@media only screen and (max-width: 1024px) {
+    .home_container{
+        margin: 50px 0 200px 0;
+        padding-right: 10px;
+    }
+    h1{
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+	
+}
+
+

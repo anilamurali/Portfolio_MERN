@@ -1,0 +1,9 @@
+:root{
+    --dark_color:#292e45;
+    --light_color:#9ca7d2;
+    --txt-color:#ee4604;
+}
+.app{
+    background-color: var(--dark_color);
+
+}
