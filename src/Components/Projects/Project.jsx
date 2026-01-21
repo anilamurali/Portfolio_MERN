@@ -1,4 +1,4 @@
-import { color, motion } from 'framer-motion'
+import {  motion } from 'framer-motion'
 import React, { useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import movie from '../Assets/movie.png'
