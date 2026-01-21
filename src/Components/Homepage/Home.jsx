@@ -1,10 +1,6 @@
 import React from 'react'
 import '../Homepage/Home.css'
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import { motion } from "framer-motion"
-import { Link } from 'react-router-dom';
-import logo from '../Assets/logo.png'
 function Home({ lightMode,textColor }) {
 
 

@@ -8,10 +8,6 @@ import {
     MDBBtn
   } from 'mdb-react-ui-kit';
   const dark_color = '#1a2039'
-  const text_color = '#ee4604'
-  const dark_text = '#c5bde1'
-  const light_text = '#52545d'
-    const light_color = '#dce2fc'
 
 function Footer({lightMode}) {
   return (
