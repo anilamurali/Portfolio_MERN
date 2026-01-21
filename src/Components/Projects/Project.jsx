@@ -8,7 +8,7 @@ import weather from '../Assets/weather.png'
 
 
 function Project({ lightMode, textColor }) {
-  const [showProjects, setShowProject] = useState([
+  const [showProjects] = useState([
     { id: 1, title: "Movie Search App", tecknologyies: ["React", "CSS", "Bootsreap", "API Fetch"], picture: movie },
     { id: 2, title: "Restaurant App", tecknologyies: ["React", "CSS", "Bootsreap", "API Fetch"], picture: restornt },
     { id: 3, title: "Quote Generator", tecknologyies: ["React", "CSS", "Bootsreap", "API Fetch"], picture: quotes },
